@@ -1,0 +1,64 @@
+import "./AboutContent.css"
+import {NavLink} from "react-router-dom"
+import { ImPointRight } from "react-icons/im";
+import laptopImg from "./me.png";
+function Content(){
+    return (
+        <>
+        <div className="content">
+
+        
+        <div className="about">
+            <div className="left">
+                <h1 className="heading">
+                    $whoami
+                </h1>
+                <p style={{textAlign: "justify", fontSize: "1.3rem" ,paddingBottom:"2rem"}}>
+                    Hi Everyone, I am <span className="purple">Sania Ahmad </span>
+                    from <span className="purple"> New Delhi, India.</span>
+                    <br />I am a sophomore pursuing Computer Engineering at Jamia Millia Islamia.
+                    <br />
+                    <br />
+                    Apart from web, I love problem solving. Have a look at my profiles: 
+                </p>
+                <ul>
+                    <li className="about-activity">
+                    <NavLink to="https://auth.geeksforgeeks.org/user/saniaahmad6/practice">
+                        <ImPointRight /> GeeksForGeeks
+                    </NavLink>
+                    </li>
+                    
+                    <li className="about-activity">
+                    <NavLink to="https://leetcode.com/saniaahmad/">
+                        <ImPointRight /> LeetCode
+                    </NavLink>
+                    </li>
+                    
+                    
+                </ul>
+
+                <p style={{ color: "#98D7C2", fontSize: "1.3rem", paddingBottom: "1.5rem" }}>
+                        "Strive to build things that make a difference!"{" "}
+                
+                <footer className="blockquote-footer">--Sania</footer>
+                </p>
+                <NavLink to ="/contact">
+                    <button className="btn">
+                        CONTACT
+                    </button>
+                </NavLink>
+
+
+            </div>
+
+            {/* <div className="right">
+                <img src={laptopImg} alt="about" className="img-fluid" />
+
+            </div> */}
+        </div>
+        </div>
+        </>
+    )
+}
+
+export default Content;

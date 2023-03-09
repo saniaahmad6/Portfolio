@@ -1,0 +1,49 @@
+
+.about{
+    
+    
+    align-items: center;
+    width: 3rem 0;
+    display: grid;
+    grid-template-columns: (2,1fr);
+    grid-gap: 10%;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    height: 100%;
+
+
+    
+    margin: auto;
+    
+    padding: 5em 0;
+}
+
+.about .left{
+     text-align: center;
+    /* margin-left: 0;
+    padding: 1rem;
+    max-width: 350px;  */
+}
+
+.heading{
+    padding: 2rem 0;
+}
+
+.about-activity{
+    margin-bottom: 1rem;
+}
+.about-activity:hover {
+     text-shadow: 0 0 5px #c4df17; 
+    
+}
+
+@media screen and (max-width: 640px){
+    .about{
+        grid-template-columns: 1fr;
+    }
+}
+.right img{
+    width: 400px;
+    height: 400px;
+}
