@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bb837885.css",
+    "main.js": "/Portfolio/static/js/main.658f6dba.js",
+    "static/media/common.jpg": "/Portfolio/static/media/common.f75400502f23b4537b40.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/Portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/Sania_Ahmad.pdf": "/Portfolio/static/media/Sania_Ahmad.006de217a7e3dbd9da1d.pdf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/me.png": "/Portfolio/static/media/me.67ac11f36a9ebcdefd6b.png",
+    "static/media/IntroImg.jpg": "/Portfolio/static/media/IntroImg.5fd555f60e593e775516.jpg",
+    "static/media/gamesite.jpg": "/Portfolio/static/media/gamesite.e2f91a69e26fe16aa4fe.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.bb837885.css.map": "/Portfolio/static/css/main.bb837885.css.map",
+    "main.658f6dba.js.map": "/Portfolio/static/js/main.658f6dba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb837885.css",
+    "static/js/main.658f6dba.js"
+  ]
+}
