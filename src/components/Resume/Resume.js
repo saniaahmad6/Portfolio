@@ -10,8 +10,9 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
-
+  "https://raw.githubusercontent.com/saniaahmad6/Portfolio/raw/master/src/components/Resume/Sania_Ahmad.pdf";
+  https://github.com/saniaahmad6/Portfolio/blob/a91eb1d892f4e130d4305a7f982934b37918d8d8/src/components/Resume/Sania_Ahmad.pdf
+  
 function ResumeContent() {
   const [width, setWidth] = useState(1200);
 

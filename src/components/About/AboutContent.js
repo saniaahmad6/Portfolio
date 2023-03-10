@@ -2,6 +2,10 @@ import "./AboutContent.css"
 import {NavLink} from "react-router-dom"
 import { ImPointRight } from "react-icons/im";
 import laptopImg from "./me.png";
+import Button from "react-bootstrap/Button";
+// import Particle from "../Particle";
+import pdf from "../Resume/Sania_Ahmad.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
 function Content(){
     return (
         <>
@@ -46,8 +50,21 @@ function Content(){
                     <button className="btn">
                         CONTACT
                     </button>
+                    
                 </NavLink>
-
+                <br/>
+                <center>
+                <Button className="btn"
+                        variant="primary"
+                        href={pdf}
+                        target="_blank"
+                        style={{ maxWidth: "250px" }}
+                    >
+                        <AiOutlineDownload />
+                        &nbsp;Download CV
+                 </Button>
+                 
+                 </center>
 
             </div>
 
